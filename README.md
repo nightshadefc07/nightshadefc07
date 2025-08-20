@@ -1,39 +1,95 @@
-# 🌑 Night Shades FC
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Thoughts Hub</title>
+  <style>
+    /* Background gradient with multiple colors */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #000000, #ff6600, #1e90ff, #ff0000);
+      color: #fff;
+      text-align: center;
+    }
 
-Welcome to the official GitHub repository of **Night Shades FC** – a team built on passion, determination, and teamwork.  
+    header {
+      background: rgba(0,0,0,0.8);
+      color: #fff;
+      padding: 20px;
+      border-bottom: 3px solid #ff6600;
+    }
 
-## 🌐 Domain
-Our official domain:  
-➡️ [https://nightshadefc.is-a.dev](https://nightshadefc.is-a.dev)
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: rgba(255,255,255,0.05); /* slightly transparent */
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
 
-## 🏆 About Us
-- Runner-up in the Intercollege Futsal Tournament 🥈  
-- Defeated previous champions to reach the final ⚡  
-- Loved and supported by our fans & college community ❤️  
-- Playing for fun, unity, and the love of football ⚽  
+    h1, h2 {
+      color: #ffcc00; /* golden yellow for headings */
+    }
 
-## 📸 Follow Us
-- Instagram: [@nightshades_fc](https://instagram.com/nightshades_fc)  
-- Facebook: [Night Shades FC](https://facebook.com/nightshades_fc)  
+    p {
+      color: #ffffff; /* main text white */
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
 
-## 🚀 Future Plans
-We’re working on building our online presence with updates, highlights, and more exciting news. Stay tuned!  
+    iframe {
+      width: 100%;
+      height: 360px;
+      border-radius: 10px;
+      margin-top: 15px;
+      border: 3px solid #ff6600; /* orange border */
+    }
 
----
-✨ *Night Shades FC — More than a team, it’s a family.*
-## Hi there 👋
+    .social-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
 
-<!--
-**nightshadefc07/nightshadefc07** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    .social-links a:nth-child(1) { background: #ff0000; color: #fff; } /* YouTube red */
+    .social-links a:nth-child(2) { background: #1e90ff; color: #fff; } /* Instagram blue */
+    .social-links a:nth-child(3) { background: #ff6600; color: #fff; } /* Facebook orange */
+    .social-links a:nth-child(4) { background: #000000; color: #fff; } /* Twitter black */
 
-Here are some ideas to get you started:
+    .social-links a:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Thoughts Hub</h1>
+    <p>Sharing my thoughts and videos</p>
+  </header>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <div class="container">
+    <h2>My Latest Video</h2>
+    <!-- Embedded YouTube Shorts Video -->
+    <iframe src="https://www.youtube.com/embed/W0eyjNEHwRw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Social Media</h2>
+    <div class="social-links">
+      <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+      <a href="https://twitter.com/" target="_blank">Twitter/X</a>
+    </div>
+
+    <h2>My Thoughts</h2>
+    <p>Write your ideas, quotes, or updates here...</p>
+  </div>
+</body>
+</html>
